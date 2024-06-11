@@ -80,3 +80,30 @@ You can use Graphql;
 When you finish your challenge, after forking a repository, you **must** open a pull request to our repository. There are no limitations to the implementation, you can follow the programming paradigm, modularization, and style that you feel is the most appropriate solution.
 
 If you have any questions, please let us know.
+
+
+# Solution
+
+## Setup Project
+
+Run scripts in root directory `docker compose up -d --build` to create docker containers
+Enter directory `api-transaction` and run `npm install` to install dependencies 
+Enter directory `api-transaction` and run `npm run start` to start the server 
+Enter directory `ms-anti-fraud` and run `npm install` to install dependencies 
+Enter directory `ms-anti-fraud` and run `npm run start` to start the server
+
+## Test Examples
+
+```
+POST -> http://localhost:3000/transaction/
+        body {
+          "accountExternalIdCredit": "b01ce0ef-34ab-4c21-94bc-c48c70003867",
+          "accountExternalIdDebit": "439e8f6e-c1c2-41b5-a69f-7bd93e8b35a7",
+          "tranferTypeId": 3,
+          "value": 1200
+        }
+
+GET -> http://localhost:3000/transaction/:id
+
+
+```

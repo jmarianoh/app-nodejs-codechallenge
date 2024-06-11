@@ -1,0 +1,313 @@
+{
+	"info": {
+		"_postman_id": "b0f799ae-c7f0-48aa-bef2-581550b2512c",
+		"name": "api-transactions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29329056"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/yape-api/transactions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"accountExternalIdDebit\": \"f549b5ea-c956-453a-b78f-550948753937\",\n  \"accountExternalIdCredit\": \"f549b5ea-c956-453a-b78f-550948753937\",\n  \"tranferTypeId\": 2,\n  \"value\": 17\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/yape-api/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"yape-api",
+						"transactions"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/yape-api/transactions",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"accountExternalIdDebit\": \"b223a7c2-636b-4528-93ee-4b371aad7c5c\",\n  \"accountExternalIdCredit\": \"c45939bd-8a00-42f8-a058-15bfe0f64b0b\",\n  \"tranferTypeId\": 2,\n  \"value\": 17\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/yape-api/transactions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"yape-api",
+								"transactions"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "233"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e9-e3S6Bke3a69lpfpyErWOz8U+59w\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jun 2024 03:21:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"transactionExternalId\": \"352180ab-95d4-4c4d-b943-0974e2957e42\",\n    \"accountExternalIdDebit\": \"b223a7c2-636b-4528-93ee-4b371aad7c5c\",\n    \"accountExternalIdCredit\": \"c45939bd-8a00-42f8-a058-15bfe0f64b0b\",\n    \"tranferTypeId\": 2,\n    \"value\": 17,\n    \"status\": 1\n}"
+				},
+				{
+					"name": "http://localhost:3000/yape-api/transactions",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"accountExternalIdDebit\": \"3f1d270d-83e5-476e-8504-82f8cbf2fc70\",\n  \"accountExternalIdCredit\": \"b66d69aa-06db-4339-95b4-32ef6f6c1d5d\",\n  \"tranferTypeId\": 2,\n  \"value\": 50000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/yape-api/transactions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"yape-api",
+								"transactions"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "236"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ec-YE3gPc8ctFChZOoSPGWjT7qETEI\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jun 2024 03:23:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"transactionExternalId\": \"d935ac53-ef2e-42ac-b6d7-d7fe89d2cbf8\",\n    \"accountExternalIdDebit\": \"3f1d270d-83e5-476e-8504-82f8cbf2fc70\",\n    \"accountExternalIdCredit\": \"b66d69aa-06db-4339-95b4-32ef6f6c1d5d\",\n    \"tranferTypeId\": 2,\n    \"value\": 50000,\n    \"status\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/yape-api/transactions Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/yape-api/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"yape-api",
+						"transactions"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/yape-api/transactions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/yape-api/transactions/352180ab-95d4-4c4d-b943-0974e2957e42",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"yape-api",
+								"transactions",
+								"352180ab-95d4-4c4d-b943-0974e2957e42"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "183"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b7-hBu7mdjHqLHpAyi5IO5b4xFX9Dw\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jun 2024 03:22:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"transactionExternalId\": \"352180ab-95d4-4c4d-b943-0974e2957e42\",\n    \"transactionType\": {\n        \"name\": 2\n    },\n    \"transactionStatus\": {\n        \"name\": \"APPROVED\"\n    },\n    \"value\": 17,\n    \"createdAt\": \"2024-06-11T03:22:32.179Z\"\n}"
+				},
+				{
+					"name": "http://localhost:3000/yape-api/transactions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/yape-api/transactions/d935ac53-ef2e-42ac-b6d7-d7fe89d2cbf8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"yape-api",
+								"transactions",
+								"d935ac53-ef2e-42ac-b6d7-d7fe89d2cbf8"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"ba-OyE4WjkcV5wubwD5Zqvz4OwvCxg\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 11 Jun 2024 03:23:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"transactionExternalId\": \"d935ac53-ef2e-42ac-b6d7-d7fe89d2cbf8\",\n    \"transactionType\": {\n        \"name\": 2\n    },\n    \"transactionStatus\": {\n        \"name\": \"REJECTED\"\n    },\n    \"value\": 50000,\n    \"createdAt\": \"2024-06-11T03:23:54.962Z\"\n}"
+				}
+			]
+		}
+	]
+}

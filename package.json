@@ -1,0 +1,25 @@
+{
+  "name": "app-nodejs-codechallenge",
+  "version": "1.0.0",
+  "description": "Yape Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarianoh/app-nodejs-codechallenge.git"
+  },
+  "keywords": [
+    "codechallenge",
+    "nodejs",
+    "typescript",
+    "yape"
+  ],
+  "author": "Jose Mariano Herrera Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmarianoh/app-nodejs-codechallenge/issues"
+  },
+  "homepage": "https://github.com/jmarianoh/app-nodejs-codechallenge#readme"
+}
